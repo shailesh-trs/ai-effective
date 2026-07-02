@@ -219,3 +219,18 @@ __marimo__/
 
 # Claude
 .claude/
+
+# ── Frontend ────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Local profile store ─────────────────────────────────────
+# Remove the line below if you want to commit profiles to the repo
+.ai-effective/
+
+# ── OS / editor ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
